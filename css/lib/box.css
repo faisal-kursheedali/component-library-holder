@@ -1,0 +1,31 @@
+
+.xmp-box{
+    border-left:10px solid var(--cta3) ;
+    width: auto;
+    overflow-x: auto;
+    background-color:black;
+    color: var(--white-txt);
+    padding: .5rem;
+}
+.xmp-box::-webkit-scrollbar{
+    height: .5rem;
+    background-color: var(--litegray-bg);
+    border-radius: .5rem;
+}
+.xmp-box::-webkit-scrollbar-thumb{
+    background-color: var(--cta1);
+    border-radius: .5rem;
+}
+
+
+.flrx-center-rw{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flrx-center-clm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
