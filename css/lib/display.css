@@ -1,14 +1,14 @@
 /* This file has all css required for display element */
 
-.block{
+.bui-block{
     display: block;
 }
-.inline-block{
+.bui-inline-block{
     display: inline-block;
 }
-.flex{
+.bui-flex{
     display: flex;
 }
-.inline-flex{
+.bui-inline-flex{
     display: inline-flex;
 }

@@ -2,26 +2,26 @@
 
 
 /* all varient fallow some same rules */
-.avatar-sqr,.avatar-rnd,.avatar-txt{
+.bui-avatar-sqr,.bui-avatar-rnd,.bui-avatar-txt{
     aspect-ratio: 1/1;
     position: relative;
 }
 
 /*rounded avatar */
-.avatar-rnd{
+.bui-avatar-rnd{
     border-radius: 50%;
     width: 3.75rem;
     object-fit: cover;
 }
 /* squared avatar */
-.avatar-sqr{
+.bui-avatar-sqr{
     border-radius:.5rem;
     width: auto;
     object-fit: cover;
     
 }
 /* texted avatar */
-.avatar-txt{
+.bui-avatar-txt{
     border-radius: 50%;
     width: 10rem;
     font-size:2rem;
@@ -34,23 +34,23 @@
 
 
 /* sizes of avatar */
-.avatar-xsm{
+.bui-avatar-xsm{
     width: 2.5rem;
     font-size: 0.8rem;
 }
-.avatar-sm{
+.bui-avatar-sm{
     width: 3.75rem;
     font-size: 1rem;
 }
-.avatar-md{
+.bui-avatar-md{
     width: 6.25rem;
     font-size: 1.5rem;
 }
-.avatar-lg{
+.bui-avatar-lg{
     width: 9.375rem;
     font-size: 1.75rem;
 }
-.avatar-xl{
+.bui-avatar-xl{
     width:12.5rem;
     font-size: 2rem;
 }

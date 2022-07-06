@@ -2,7 +2,7 @@
 
 
 /* modal container */
-.modal-container{
+.bui-modal-container{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,12 +24,12 @@
     
 }
 /* modal header */
-.modal-head{
+.bui-modal-head{
     font-size: 1.5rem;
     font-weight: bold;
 }
 /* modal button */
-.modal-btn-container{
+.bui-modal-btn-container{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -43,13 +43,13 @@
 
 
 /* modal exit btn/icn */
-.modal-close{
+.bui-modal-close{
     position: absolute;
     top: 10px;
     right: 10px;
     cursor: pointer;
 }
-.modal-close:hover{
+.bui-modal-close:hover{
     opacity: .5;
 }
 

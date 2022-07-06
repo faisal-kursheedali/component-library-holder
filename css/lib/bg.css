@@ -1,30 +1,30 @@
 /* css for background colour */
-.dark-bg,.gray-bg,.darkgray-bg,.litegray-bg{
+.bui-dark-bg,.bui-gray-bg,.bui-darkgray-bg,.bui-litegray-bg{
     padding: .5rem;
    max-width: 600px;
 }
 
-.gray-bg{
+.bui-gray-bg{
     background-color: var(--gray-bg);
 }
-.dark-bg{
+.bui-dark-bg{
     background-color: var(--dark-bg);
 }
-.darkgray-bg{
+.bui-darkgray-bg{
     background-color: var(--darkgray-bg);
 }
-.green-bg{
+.bui-green-bg{
     background-color: var(--green-clr);
 }
-.litegray-bg{
+.bui-litegray-bg{
     background-color: var(--litegray-bg);
 }
-.cta1-bg{
+.bui-cta1-bg{
     background-color: var(--cta1);
 }
-.cta2-bg{
+.bui-cta2-bg{
     background-color: var(--cta2);
 }
-.cta3-bg{
+.bui-cta3-bg{
     background-color: var(--cta3);
 }

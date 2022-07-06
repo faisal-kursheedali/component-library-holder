@@ -3,18 +3,18 @@
 
 
 /* all varient fallo some same css */
-.card-normal,.card-offer,.card-sm{
+.bui-card-normal,.bui-card-offer,.bui-card-sm{
     position: relative;
 }
 
 /* disabled card */
-.card-disable{
+.bui-card-disable{
    
     pointer-events: none;
 }
 
 /* container to keep more than 1 card */
-.card-main-container{
+.bui-card-main-container{
     display: flex;
     flex-direction: row;
     justify-content:center;
@@ -25,18 +25,18 @@
 
 
 /* individual card container of offer cars */
-.card-offer-container{
+.bui-card-offer-container{
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     overflow: auto;
 }
-.card-offer-container::-webkit-scrollbar{
+.bui-card-offer-container::-webkit-scrollbar{
     height: 0px;
 }
 
-.card-offer{
+.bui-card-offer{
     width: 20%;
     min-width: 100px;
     max-width: 300px;
@@ -46,7 +46,7 @@
     padding: 4px;
     background-color: white;
 }
-.card-offer-img{
+.bui-card-offer-img{
     width: 100%;
     aspect-ratio: 1/1;
     object-fit: cover;
@@ -54,13 +54,13 @@
     background-color: beige;
     border-radius: .5rem;
 }
-.card-offer-info{
+.bui-card-offer-info{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
 }
-.card-txt,.card-head,.card-sub,.card-txtsm,.card-offer-txt,.card-offer-head{
+.bui-card-txt,.bui-card-head,.bui-card-sub,.bui-card-txtsm,.bui-card-offer-txt,.bui-card-offer-head{
     width: 100%;
     vertical-align: top;
     white-space: nowrap;
@@ -71,20 +71,20 @@
     color: var(--black-txt);
     padding: 4px;
 }
-.card-offer-head{
+.bui-card-offer-head{
     text-align: center;
     margin: 0px;
 }
 
-.card-offer-txt,.card-sub{
+.bui-card-offer-txt,.bui-card-sub{
     font-size: 1rem;
     margin: 4px 0px;
     color: gray;
 }
-.card-offer-txt{
+.bui-card-offer-txt{
     margin: 0px;
 }
-.card-offer-link{
+.bui-card-offer-link{
     width: 100%;
     color: var(--green-clr);
     display: block;
@@ -93,7 +93,7 @@
     font-size: 1.2rem;
 }
 /* individual card container of normal cars */
-.card-normal{
+.bui-card-normal{
     display: flex;
     flex-direction: column;
     width: 50%;
@@ -106,7 +106,7 @@
     
     background-color:white;
 }
-.card-normal-img{
+.bui-card-normal-img{
     width: 100%;
     aspect-ratio: 1/1;
     overflow: hidden;
@@ -114,10 +114,10 @@
     object-position: center;
     
 }
-.card-normal-badge{
+.bui-card-normal-badge{
     display: inline-block;
 }
-.card-normal-rating{
+.bui-card-normal-rating{
     background-color: var(--green-clr);
     display: inline-flex;
     align-items: center;
@@ -128,22 +128,22 @@
     
     
 }
-.card-normal-rating-icon{
+.bui-card-normal-rating-icon{
     font-size: inherit;
     
 }
-.card-normal-price{
+.bui-card-normal-price{
     color: black;
     font-size: 1rem;
     font-weight: bold;
     font-size: var(--p2-fontsize);
 }
-.card-normal-oldprice{
+.bui-card-normal-oldprice{
     font-size: .8rem;
     text-decoration: line-through;
     opacity: 0.8;
 }
-.card-normal-btn{
+.bui-card-normal-btn{
     width: 100%;
     padding: 0px;
     margin-top: 8px;
@@ -152,13 +152,13 @@
     z-index: 0;
     
 }
-.card-normal-discount{
+.bui-card-normal-discount{
     font-size: 1rem;
     font-weight: bold;
     color: var(--green-clr);
     margin: 4px;
 }
-.card-badge{
+.bui-card-badge{
     position: absolute;
     top: 5%;
     padding: 4px 6px;
@@ -169,7 +169,7 @@
 }
 
 
-.card-disable-txt{
+.bui-card-disable-txt{
     position:absolute;
     text-decoration: underline 3px red;
     bottom: 0;
@@ -194,32 +194,32 @@
 }
 
 @media (max-width:426px) {
-    .card-main-container{
+    .bui-card-main-container{
         margin: 8px auto;
     }
-    .card-normal{
+    .bui-card-normal{
         max-width: 130px;
         margin: .170rem;
         
     }
-    .card-normal-img{
+    .bui-card-normal-img{
         aspect-ratio: 1/1;
     }
-    .card-offer-container{
+    .bui-card-offer-container{
         justify-content: center;
     }
     
     
 }
 /* individual card container of small cars */
-.card-sm-container{
+.bui-card-sm-container{
     width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 }
-.card-sm{
+.bui-card-sm{
     width: 30%;
     padding: 8px;
     border: 2px solid gray;
@@ -228,24 +228,24 @@
     aspect-ratio: 1/1;
     
 }
-.card-sm-img{
+.bui-card-sm-img{
     width: 100%;
     aspect-ratio: 1/1;
     object-fit: cover;
     object-position: center;
 }
-.card-sm-head,.card-sm-sub,.card-sm-txt,.card-sm-discount{
+.bui-card-sm-head,.bui-card-sm-sub,.bui-card-sm-txt,.bui-card-sm-discount{
     text-align: center;
     color: black;
     margin: 4px auto;
     
 }
-.card-sm-head{
+.bui-card-sm-head{
     font-size: 1.2em;
     font-weight: bold;
     
 }
-.card-sm-txt,.card-sm-discount{
+.bui-card-sm-txt,.bui-card-sm-discount{
     font-size: 1em;
     vertical-align: top;
     white-space: nowrap;
@@ -253,17 +253,17 @@
     text-overflow: ellipsis;
     color: black;
 }
-.card-sm-sub{
+.bui-card-sm-sub{
     color:gray;
     font-size: .8rem;
 }
 
-.card-sm-btn{
+.bui-card-sm-btn{
     width: 100%;
     margin: 0px;
     padding: 0px;
 }
-.card-sm-discount{
+.bui-card-sm-discount{
     color: var(--green-clr);
 }
 
@@ -298,7 +298,7 @@
 
 
 
-/* .card-horizontal{
+/* .bui-card-horizontal{
     display: flex;
     width: auto;
     gap: 2%;
@@ -313,19 +313,19 @@
 
 
 
-.card-horizontal-img-container{
+.bui-card-horizontal-img-container{
     width: 111px;
     height: 148px;
 }
-.card-horizontal-img{
+.bui-card-horizontal-img{
     width: 100%;
     height: auto;
 }
-.card-txt-container{
+.bui-card-txt-container{
     width: 60%;
     
 }
-.card-txt-title{
+.bui-card-txt-title{
     
     margin-top: 0px;
     padding-top: 0px;
@@ -381,13 +381,13 @@
 
 
 
-/* .card-container{
+/* .bui-card-container{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: last baseline;
 }
-.card{
+.bui-card{
     /* max-width: 218px; */
     
     /* width: 30%;
@@ -397,7 +397,7 @@
     margin:5px;
     border-radius: .5rem;
 }
-.card-img{
+.bui-card-img{
     width: 100%;
     aspect-ratio: 1/2;
     border-radius: .5rem;
@@ -414,24 +414,24 @@
     border-radius: .5rem;
     */
 /* }
-.card-txt{
+.bui-card-txt{
     padding: .5rem;
 }
 
-.card-head{
+.bui-card-head{
     font-size: 1.5rem;
     font-weight:bolder;
     
 }
-.card-sub{
+.bui-card-sub{
     font-size: 1rem;
     margin: 0px;
 }
-.card-btn-container{
+.bui-card-btn-container{
     display: flex;
     justify-content: center;
 }
-.card-btn{
+.bui-card-btn{
     
     /* width: 100%; */
     /* min-width: 50px;
@@ -448,13 +448,13 @@
     
     margin-top:35px; */
 /* }
-.card-btn-icn{
+.bui-card-btn-icn{
     font-size: inherit;
 }
-.card-center{
+.bui-card-center{
     justify-content: center;
 }
-.card-rate{
+.bui-card-rate{
     display: flex;
     align-self: center;
     color: white;
@@ -462,7 +462,7 @@
     display: inline-block;
     
 }  */
-/* .cardsm-main-container{
+/* .bui-cardsm-main-container{
     display: flex;
     flex-direction: column;
     width: 100%;

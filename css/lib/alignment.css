@@ -1,6 +1,6 @@
 /* This file all the css required for alignment of elements */
 
-.align-center{
+.bui-align-center{
     /* width: 50%; */
     margin: auto;
     text-align: center;
@@ -8,7 +8,7 @@
 
 
 /* This used to align icon with its text */
-.align-icn{
+.bui-align-icn{
     display: flex;
     align-items: center;
 }

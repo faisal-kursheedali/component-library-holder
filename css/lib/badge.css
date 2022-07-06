@@ -1,12 +1,12 @@
 /* this file has all style prop required for each type of badge */
 
 /* badge on avatar */
-.badge-avatar{
+.bui-badge-avatar{
     position: relative;
     width: inherit;
     display: inline-block;
 }
-.badge-avatar::after{
+.bui-badge-avatar::after{
     content: '';
     position: absolute;
     aspect-ratio: 1/1;
@@ -21,25 +21,25 @@
 }
 
 /* positioning the badge on avatar */
-.badge-btm-right::after{
+.bui-badge-btm-right::after{
     bottom: 0;
     right:10%;
 }
-.badge-btm-left::after{
+.bui-badge-btm-left::after{
     bottom: 0;
     left:10%;
 }
-.badge-top-right::after{
+.bui-badge-top-right::after{
     top: 0;
     right:10%;
 }
-.badge-top-left::after{
+.bui-badge-top-left::after{
     top: 0;
     left:10%;
 }
 
 /* badge on icon */
-.badge-icon,.badge-icn-container{
+.bui-badge-icon,.bui-badge-icn-container{
     color: inherit;
     position: relative;
     width: inherit;
@@ -47,7 +47,7 @@
     font-size:1.5rem;
     
 }
-.badge-icn-content{
+.bui-badge-icn-content{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,7 +68,7 @@
 
 
 /* texted badge */
-.badge-txt ,.badge-txt-rnd{
+.bui-badge-txt ,.bui-badge-txt-rnd{
     display: inline;
     background-color: var(--badge-gray);
     text-align: center;
@@ -76,43 +76,43 @@
     border-radius: var(--border-curved);
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.badge-txt-rnd{
+.bui-badge-txt-rnd{
     border-radius: var(--border-sm-circle);
 }
 
 
 /* background colouring for badged text and badged avatar */
-.badge-txt-red , .badge-red::after{
+.bui-badge-txt-red , .bui-badge-red::after{
     background-color: var(--badge-red);
     color: var(--white-txt);
 }
-.badge-txt-green,.badge-green::after{
+.bui-badge-txt-green,.bui-badge-green::after{
     background-color: var(--badge-green);
 }
-.badge-txt-yellow,.badge-yellow::after{
+.bui-badge-txt-yellow,.bui-badge-yellow::after{
     background-color: var(--badge-yellow);
     color: var(--black-txt);
 }
-.badge-txt-gray,.badge-gray::after{
+.bui-badge-txt-gray,.bui-badge-gray::after{
     background-color: var(--badge-gray);
 }
-.badge-txt-cta1,.badge-cta1::after{
+.bui-badge-txt-cta1,.bui-badge-cta1::after{
     background-color: var(--cta1);
 }
-.badge-txt-cta2,.badge-cta2::after{
+.bui-badge-txt-cta2,.bui-badge-cta2::after{
     background-color: var(--cta2);
     color: var(--black-txt);
 }
-.badge-txt-cta3,.badge-cta3::after{
+.bui-badge-txt-cta3,.bui-badge-cta3::after{
     background-color: var(--cta3);
     
 }
-.badge-txt-cta4,.badge-cta4::after{
+.bui-badge-txt-cta4,.bui-badge-cta4::after{
     background-color: var(--cta4);
     color: var(--black-txt);
     
 }
-.badge-content::after{
+.bui-badge-content::after{
     content: var(--content);
     
 }

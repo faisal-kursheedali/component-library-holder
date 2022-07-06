@@ -1,11 +1,11 @@
 /* This file has all css required for Tost component */
 
 
-.toast-container{
+.bui-toast-container{
     
     display: none;
 }
-.toast,.toast-red,.toast-yellow,.toast-green{
+.bui-toast,.bui-toast-red,.bui-toast-yellow,.bui-toast-green{
     border-radius: .3rem;
     position: fixed;
     background-color:#E8E8E8;
@@ -17,56 +17,56 @@
 }
 
 /* tost text */
-.toast-txt{
+.bui-toast-txt{
     display: block;
 }
 
-.toast-txt-head,.toast-icn{
+.bui-toast-txt-head,.bui-toast-icn{
     display: inline-block;
     font-weight: bold;
     margin: auto .25ch;
 }
-.toast-icn{
+.bui-toast-icn{
     font-size: 1.3rem;
 }
 
 /* tost exit icn */
-.toast-close{
+.bui-toast-close{
     position: absolute;
     font-size: inherit;
     top: 10px;
     right: 10px;
     cursor: pointer;
 }
-.toast-close:hover{
+.bui-toast-close:hover{
     opacity: .6;
 }
 /* toast link */
-.toast-link{
+.bui-toast-link{
     display: block;
 }
-.toast-link-sec,.toast-link-primary{
+.bui-toast-link-sec,.bui-toast-link-primary{
     display: inline-block;
     text-decoration: none;
     letter-spacing: .2px;
     margin: .2rem .5ch;
     color: initial;
 }
-.toast-link-primary{
+.bui-toast-link-primary{
     font-weight: 600;
     color: var(--cta1);
 }
 
 /* tost colors */
-.toast-red{
+.bui-toast-red{
     background-color: var(--red-bg);
     color: var(--red-clr);
 }
-.toast-yellow{
+.bui-toast-yellow{
     background-color: var(--yellow-bg);
     color: var(--yellow-clr);
 }
-.toast-green{
+.bui-toast-green{
     background-color: var(--green-bg);
     color: var(--green-clr);
 }

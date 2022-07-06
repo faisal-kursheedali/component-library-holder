@@ -1,7 +1,7 @@
 /* this has all styke for individual product page */
 
 /* container for prodect page  */
-.prod-page-container{
+.bui-prod-page-container{
     margin-top: 2rem;
     display: flex;
     flex-direction: column;
@@ -11,15 +11,15 @@
 }
 
 
-.prod-main-part,.prod-sub-part{
+.bui-prod-main-part,.bui-prod-sub-part{
     align-self: flex-start;
 }
 
-.prod-img-container{
+.bui-prod-img-container{
     display: flex;
     max-width: 400px;
 }
-.prod-side-img-container{
+.bui-prod-side-img-container{
     display:flex ;
     flex-direction: column;
     width: auto;
@@ -27,50 +27,50 @@
     
     border-right: 2px solid rgb(80, 77, 77);
 }
-.prod-side-img{
+.bui-prod-side-img{
     width: 50px;
     height: 60px;
     cursor: pointer;
         margin: .5rem auto;
 }
 
-.prod-main-img-container{
+.bui-prod-main-img-container{
     width: 80%;
     overflow: hidden;
     
 }
-.prod-btn{
+.bui-prod-btn{
     
     margin: auto;
     margin-top: 1rem;
 }
-.prod-main-img{
+.bui-prod-main-img{
     width: 100%;
     object-fit: cover;
     object-position: center;
 }
-.prod-name,.prod-price{
+.bui-prod-name,.bui-prod-price{
     
     align-self: flex-start;
     /* line-height:1; */
 }
-.prod-sub-part{
+.bui-prod-sub-part{
     width: 100%;
     
 }
-.prod-rate-small-txt,.prod-rate{
+.bui-prod-rate-small-txt,.bui-prod-rate{
     align-self: flex-start;
     display: inline;
 
 }
-.prod-rate-small-txt{
+.bui-prod-rate-small-txt{
     margin-left: 8px;
 }
-.prod-special-offer,.prod-delivary{
+.bui-prod-special-offer,.bui-prod-delivary{
     align-self: flex-start;
     margin-top: 8px;
 }
-.prod-price-container,.prod-size-container,.prod-detail-container,.prod-sold-by-container{
+.bui-prod-price-container,.bui-prod-size-container,.bui-prod-detail-container,.bui-prod-sold-by-container{
     width: 100%;
     display: inline-block;
     border: 1px solid ;
@@ -78,58 +78,58 @@
     padding: 1rem;
     border-radius: .5rem;
 }
-.prod-sizm,.prod-sizl,.prod-sizxl,.prod-sizxxl{
+.bui-prod-sizm,.bui-prod-sizl,.bui-prod-sizxl,.bui-prod-sizxxl{
     display: inline;
     margin: .5rem;
 }
 
 @media (min-width:767px) {
-    .prod-page-container{
+    .bui-prod-page-container{
         flex-direction: row;
         justify-content:space-evenly;
     }
-    .prod-sub-part{
+    .bui-prod-sub-part{
         width: 300px;
         margin-left: 1rem;
     }
 }
 @media (min-width:800px) {
-    .prod-page-container{
+    .bui-prod-page-container{
         flex-direction: row;
         justify-content:center;
     }
-    .prod-sub-part{
+    .bui-prod-sub-part{
         margin-left: 2rem;
     }
 }
 
-.prod-sold-by-container{
+.bui-prod-sold-by-container{
     width: 100%;
     display: flex;
     flex-direction: column;
 
 }
-.prod-shop{
+.bui-prod-shop{
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
-.prod-shop-btn{
+.bui-prod-shop-btn{
     display: inline;
     margin-left: auto;
     
 }
-.prod-shop-icn{
+.bui-prod-shop-icn{
     font-size: 3rem;
 }
-.prod-shop-value{
+.bui-prod-shop-value{
     display: flex;
  justify-content: space-around;
  align-items: center;
 }
-.shop-rate-icn{
+.bui-shop-rate-icn{
     font-size: inherit;
 }
-.shop-rate-sub-txt,.shop-fallow-sub-txt,.shop-products-sub-txt{
+.bui-shop-rate-sub-txt,.bui-shop-fallow-sub-txt,.bui-shop-products-sub-txt{
 margin-top: .5rem;
 }

@@ -1,5 +1,5 @@
 
-.xmp-box{
+.bui-xmp-box{
     border-left:10px solid var(--cta3) ;
     width: auto;
     overflow-x: auto;
@@ -7,29 +7,29 @@
     color: var(--white-txt);
     padding: .5rem;
 }
-.xmp-box::-webkit-scrollbar{
+.bui-xmp-box::-webkit-scrollbar{
     height: .5rem;
     background-color: var(--litegray-bg);
     border-radius: .5rem;
 }
-.xmp-box::-webkit-scrollbar-thumb{
+.bui-xmp-box::-webkit-scrollbar-thumb{
     background-color: var(--cta1);
     border-radius: .5rem;
 }
 
 
-.flx-center-rw{
+.bui-flx-center-rw{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.flx-center-clm{
+.bui-flx-center-clm{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.box-container-flex{
+.bui-box-container-flex{
     display: flex;
     justify-content: flex-start;
     align-items: center;

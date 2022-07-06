@@ -1,7 +1,7 @@
 /* This file has all css required for Rating component */
 
 /* rating input */
-.rating-input{
+.bui-rating-input{
     width: 0px;
     height: 0px;
     margin: 0px;
@@ -9,12 +9,12 @@
 }
 
 /* rating icon */
-.rating-star-icn{
+.bui-rating-star-icn{
     font-size: 1.2rem;
 }
 
 /* old rating display */
-.rating-old,.rating-old-rnd{
+.bui-rating-old,.bui-rating-old-rnd{
     margin: 1rem;
     display: inline-flex;
     align-items: center;
@@ -22,10 +22,10 @@
     padding: 4px;
 }
 
-.rating-old-rnd{
+.bui-rating-old-rnd{
     border-radius: 3rem;
 }
-.rating-old-icn{
+.bui-rating-old-icn{
     font-size: inherit;
 }
 

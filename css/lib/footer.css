@@ -1,7 +1,7 @@
 /* This file has all the css for footer component */
 
 /* footer container */
-.footer{
+.bui-footer{
     display: block;
     width: 100%;
     background-color: var(--darkgray-bg);
@@ -11,14 +11,14 @@
 }
 
 /* footer head text */
-.footer-header{
+.bui-footer-header{
     text-align: center;
     font-size: 1.5rem;
     font-weight: bolder;
 }
 
 /* footer list of social media */
-.footer-list{
+.bui-footer-list{
     list-style: none;
     display: flex;
     justify-content: center;
@@ -27,13 +27,13 @@
 }
 
 /* footer items of social media  */
-.footer-list-item{
+.bui-footer-list-item{
     display: inline;
     margin-left: 1rem;
 }
 
 /* footer sub-text */
-.footer-sub-txt{
+.bui-footer-sub-txt{
     text-align: center;
     font-size: 1.1rem;
 }

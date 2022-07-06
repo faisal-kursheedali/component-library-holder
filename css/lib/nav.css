@@ -62,24 +62,24 @@
 /* menu btn are mostely used for mobile view and default side navigation bar are mostely used for bigb screen view */
 
 /* container to keep the side bar */
-.container-for-sidenav,.container-for-navmenu{
+.bui-container-for-sidenav,.bui-container-for-navmenu{
     display: flex;
     justify-content: flex-start;
     width: 100%;
     height: 100%;
 
 }
-.container-for-sidenav{
+.bui-container-for-sidenav{
     display: none;
     height: 100vh;
 }
-.sidenav{
+.bui-sidenav{
     overflow-y: scroll;
     overflow-x: hidden;
     
 }
 /* side nav  area */
-.sidenav,.navmenu{
+.bui-sidenav,.navmenu{
     width: 25%;
     background-color: var(--gray-bg);
     color: var(--black-txt);
@@ -87,7 +87,7 @@
 
 }
 /* list on side nav area  */
-.sidenav-list,.navmenu-list{
+.bui-sidenav-list,.navmenu-list{
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -97,7 +97,7 @@
 }
 
 /* items in side nav area */
-.sidenav-item,.navmenu-item{
+.bui-sidenav-item,.navmenu-item{
     width: 100%;
     padding: 1rem;
     margin: 2px;
@@ -106,23 +106,23 @@
     border: 2px solid black;
     cursor: pointer;
 }
-.sidenav-item:hover{
+.bui-sidenav-item:hover{
     border:3px solid var(--cta3);
 }
 
 /* content in main space <or> space other than nav area */
-.content-of-sidenav,.content-of-navmenu{
+.bui-content-of-sidenav,.bui-content-of-navmenu{
     width: 75%;
 }
-.content-of-sidenav{
+.bui-content-of-sidenav{
     overflow-y: scroll;
 }
-.content-of-sidenav::-webkit-scrollbar,.sidenav::-webkit-scrollbar{
+.bui-content-of-sidenav::-webkit-scrollbar,.bui-sidenav::-webkit-scrollbar{
     width: 8px;
     background-color: var(--litegray-bg);
     border-radius: .5rem;
 }
-.content-of-sidenav::-webkit-scrollbar-thumb,.sidenav::-webkit-scrollbar-thumb{
+.bui-content-of-sidenav::-webkit-scrollbar-thumb,.bui-sidenav::-webkit-scrollbar-thumb{
     width: 2px;
     border-radius: .5rem;
     background-color: var(--cta1);
@@ -176,7 +176,7 @@
     padding: 4px;
 }
 
-.content-of-navmenu{
+.bui-content-of-navmenu{
     display: block;
     width: 100%;
 }
@@ -184,10 +184,10 @@
 
 /* for responsive web page */
 @media (min-width:750px) {
-    .container-for-sidenav{
+    .bui-container-for-sidenav{
         display: flex;
     }
-    .container-for-navmenu{
+    .bui-container-for-navmenu{
         display: none;
     }
     .navmenu-btn{
@@ -203,7 +203,7 @@
 
 
 /* Errors of nav component [need to work in this...]*/
-.waste{
+.bui-waste{
 /* .nav-side{
     visibility: hidden;
     position: absolute;
@@ -245,7 +245,7 @@
     background-color: white;
     
 }
-.main-space{
+.bui-main-space{
     display: flex;
     flex-direction: column;
 }
@@ -306,7 +306,7 @@
     background-color: white;
 } */
 /* @media (min-width:1025px) {
-    .main-space{
+    .bui-main-space{
         flex-direction: row;
     }
     
@@ -357,14 +357,14 @@
     margin-right:0;
 }
 */
-/* .slide-menu::-webkit-scrollbar{
+/* .bui-slide-menu::-webkit-scrollbar{
     width:0px;
 }
-.slide-menu::-webkit-scrollbar-track{
+.bui-slide-menu::-webkit-scrollbar-track{
     width:5px;
     background-color: var(--litegray-bg);
 }
-.slide-menu::-webkit-scrollbar-thumb{
+.bui-slide-menu::-webkit-scrollbar-thumb{
     background-color: var(--cta2);
 } */
 /* 
@@ -386,7 +386,7 @@
 
 
 
-.slide-menu{
+.bui-slide-menu{
     position: sticky;
     top: 0;
 
@@ -398,7 +398,7 @@
     padding: 0px;
     background-color: var(--darkgray-bg);
 }
-.slide-menu ul{
+.bui-slide-menu ul{
     list-style: none;
     width: 100%;
     height:inherit;
@@ -409,7 +409,7 @@
     
     margin: 0px;
 }
-.slide-menu ul li{
+.bui-slide-menu ul li{
     display: inline;
     width: 100%;
     height: 100%;
@@ -421,10 +421,10 @@
     margin: auto 5px;
     border: 5px solid var(--cta2);
 }
-.slide-menu ul li:hover{
+.bui-slide-menu ul li:hover{
     border: 5px solid var(--cta1); */
 /* } */
-/* .main-container{
+/* .bui-main-container{
     width: 100%;
     height: 100vh;
     border: 2px solid red;
@@ -432,7 +432,7 @@
     color: inherit;
     
 }
-.component-space{
+.bui-component-space{
     align-items: center;
     
 } */
