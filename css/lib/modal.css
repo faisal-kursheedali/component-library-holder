@@ -6,75 +6,50 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
+    max-width: 600px;
+    padding: 2rem;
     position:fixed;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     margin: auto;
-    width: 50vw;
     height: fit-content;
-    
+    text-align: center;
+    background-color: azure;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     z-index: 2;
-    background-color: aliceblue;
+    
 }
-/* modal button */
-.modal-btn{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-/* modal curved button */
-.modal-btn button{
-    font-size: 2rem;
-    padding: 0px 1rem;
-}
-
 /* modal header */
 .modal-head{
-    color: var(--cta1);
-    font-size: 3rem;
-    margin: 1rem auto;
-}
-/* modal sub text */
-.modal-sub{
-    color: black;
     font-size: 1.5rem;
-    text-align: center;
-    margin-bottom: 2rem;
+    font-weight: bold;
 }
+/* modal button */
+.modal-btn-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto .5rem;
+}
+
+
+
+
+
 
 /* modal exit btn/icn */
 .modal-close{
     position: absolute;
-    top: 5px;
-    right: 5px;
-    color: gray;
-    font-size: 2rem;
+    top: 10px;
+    right: 10px;
     cursor: pointer;
-    border-radius: 3rem;
 }
 .modal-close:hover{
-    color: black;
-    background-color: gray;
+    opacity: .5;
 }
 
-@media (max-width:767px) {
-    .modal-container{
-        width:100%;
-        height:fit-content;
-        
-    }
-    .modal-head{
-        font-size: 1.5rem;
-    }
-    .modal-sub{
-        font-size: 1rem;
-        margin-bottom: 0px;
-    }
-    .modal-btn button{
-        font-size: 1.5rem;
-    }
-}

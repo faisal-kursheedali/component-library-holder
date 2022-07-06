@@ -49,4 +49,12 @@
     --badge-gray:#696b79;
 
     --footer-link-icn:var(--litegray-bg);
+
+    --btn-sec-bg:var(--darkgray-bg);
+    --btn-sec-clr:var(--black-txt);
+    --cta1-btn-clr:var(--white-txt);
+    --cta2-btn-clr:var(--white-txt);
+    --cta3-btn-clr:var(--white-txt);
+
+   
 }

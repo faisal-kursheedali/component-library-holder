@@ -1,4 +1,6 @@
-@import url(../lib/main-root.css);
+/* this has all styke for individual product page */
+
+/* container for prodect page  */
 .prod-page-container{
     margin-top: 2rem;
     display: flex;
@@ -7,9 +9,12 @@
     justify-content: center;
     flex-wrap: wrap;
 }
+
+
 .prod-main-part,.prod-sub-part{
     align-self: flex-start;
 }
+
 .prod-img-container{
     display: flex;
     max-width: 400px;
@@ -53,13 +58,7 @@
     width: 100%;
     
 }
-.prod-rate-txt{
-    padding: 4px;
-    background-color: green;
-    border-radius: 3rem;
-    color: white;
-}
-.prod-rate-small-txt{
+.prod-rate-small-txt,.prod-rate{
     align-self: flex-start;
     display: inline;
 
@@ -123,12 +122,12 @@
 .prod-shop-icn{
     font-size: 3rem;
 }
-.prod-shop-value,.prod-rate{
-    display: inline-flex;
+.prod-shop-value{
+    display: flex;
  justify-content: space-around;
  align-items: center;
 }
-.shop-rate-icn,.prod-rate-icn{
+.shop-rate-icn{
     font-size: inherit;
 }
 .shop-rate-sub-txt,.shop-fallow-sub-txt,.shop-products-sub-txt{

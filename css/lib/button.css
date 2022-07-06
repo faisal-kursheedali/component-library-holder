@@ -2,28 +2,43 @@
 
 
 /* all button fallow some same css */
-.btn,
+.btn,.btn-md,
 .btn-outline,
 .btn-fancy,
-.btn-outline-fancy,.btn-rnd {
+.btn-outline-fancy,.btn-sec,
+.btn-outline-sec {
     text-decoration: none;
-    display: block;
-    padding: .5rem 1rem;
+    /* display: block; */
+    padding: 15px 25px;
+    font-weight: 600;
+    letter-spacing: .2px;
     margin: 1rem;
-
-
+    border: 0px;
     border-radius: .5rem;
     cursor: pointer;
-    font-size: var(--p2-fontsize);
+    font-size: 14px;
 
 
 
 }
+
 /* btn round */
-.btn-rnd{
+.btn-rnd,.btn-rnd-sec{
     border-radius: 3rem;
 }
-
+/* btn with cta color */
+.btn-cta1{
+    background-color: var(--cta1);
+    color: var(--cta1-btn-clr);
+}
+.btn-cta2{
+    background-color: var(--cta2);
+    color: var(--cta2-btn-clr);
+}
+.btn-cta3{
+    background-color: var(--cta3);
+    color: var(--cta3-btn-clr);
+}
 /* btn with animation */
 .btn,
 .btn-fancy {
@@ -78,43 +93,165 @@
     color: var(--white-txt);
 }
 
+/* button sizes */
+.btn-lg{
+    font-size: 1.2rem;
+    padding: 15px 35px;
+    min-width: 80px;
+}
+.btn-sm{
+    font-size: 14px;
+    padding: 10px 20px;
+}
+
+/* floating button */
+.btn-float{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: .1px;
+    /* font-size: 10rem; */
+    border-radius: 50%;
+    border: 0px;
+    font-size: 2rem;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: var(--cta1);
+    min-width: 3rem ;
+    aspect-ratio: 1/1;
+    position: fixed;
+    z-index: 1;
+    bottom: 2.5vh;
+    right: 2.5vw;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* btn with icon  */
+.btn-icn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: inherit; */
+    /* font-size:; */
+}
+.btn-icn{
+    font-size:inherit;
+    color: inherit;
+    margin:0px .2.5ch;
+}
+
+/* secondary button for all type of button*/
+/* .btn-icn-sec{
+    color: inherit;
+} */
+/* .btn-outline-icn,.btn-outline-icn-sec{
+    color: inherit;
+} */
+/* .btn-outline-icn-sec:hover,.btn-icn-sec:hover{
+    opacity: 0.8;
+} */
+/* .btn-outline-icn:hover{
+    color: var(--cta1);
+} */
+.btn-sec{
+    background-color: var(--btn-sec-bg);
+    color:var(--btn-sec-clr);
+    /* border: 3px solid; */
+    /* border-color: inherit; */
+    
+}
+.btn-outline-sec{
+    color: inherit;
+    border: 2.5px solid ;
+    background-color: inherit;
+    border-color: inherit;
+}
+.btn-sec:hover,.btn-outline-sec:hover{
+    color:var(--btn-sec-clr);
+    background-color: var(--btn-sec-bg);
+    opacity: 0.8;
+}
+.btn-outline-cta1{
+    color: var(--cta1);
+}
+.btn-outline-cta2{
+    color: var(--cta2);
+}
+.btn-outline-cta3{
+    color: var(--cta3);
+}
+.btn-outline-cta1,.btn-outline-cta2,.btn-outline-cta3{
+    border-color: inherit;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* all links fallow some same css */
 .link,
-.link-fancy,
-.link-underlined{
+.link-fancy,.link-nostyle,
+.link-underline{
     display: inline-block;
-    font-size: var(--p2-fontsize);
     text-decoration: none;
     font-weight: bold;
-    color: #63b3ed;
+    cursor:pointer;
+    color: initial;
+    font-size: inherit;
+}
+
+/* link sizes */
+.link-lg{
+    font-size: var(--p2-fontsize);
     
+}
+.link-sm{
+    font-size: var(--p3-fontsize);
+    
+}
+
+/* link color */
+.link-cta1{
+    color: var(--cta1);
+}
+.link-cta2{
+    color: var(--cta2);
+}
+.link-cta3{
+    color: var(--cta3);
 }
 /* to display link without any style */
 .link-nostyle{
-    display: inline-block;
-    font-size: inherit;
-    text-decoration: none;
+    
+    font-weight: 600;
     
 }
 /* link with icon  */
-.link-icn{
+/* .link-icn{
     color:var(--footer-link-icn);
     font-size: 2rem;
     
-}
-
-/* underlined link */
-.link-underlined{
+} */
+/* underline link */
+.link-underline{
     text-decoration: underline 4px;
-    text-decoration-color:var(--cta1) ;
+    text-decoration-color:inherit ;
 }
-
 /* link with animation */
 .link-fancy{
     position: relative;
 }
-
 .link-fancy::before {
     content: "";
     background-color: var(--cta1);
@@ -127,87 +264,18 @@
     transform-origin: right;
     transition: transform 250ms ease-in;
 }
-
-
-
 .link-fancy:hover::before {
     transform: scaleX(1);
     transform-origin: left;
 }
-
-
-/* button sizes */
-.btn-lrg{
-    font-size: 1.1rem;
-    padding: 0.7rem 1.5rem;
-    min-width: 80px;
-}
-.btn-sm{
-    font-size: 0.9rem;
-    padding: 0.3rem 0.7rem;
-}
-
-/* floating button */
-.btn-float{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: 10rem;
-    border-radius: 50%;
-    background-color: var(--cta1);
-    height: 50px;
-    width: 50px;
-    position: fixed;
-    z-index: 1;
-    bottom: 2.5vh;
-    right: 2.5vw;
-    cursor: pointer;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-/* icon button */
-.btn-icn{
-    color: var(--cta1);
-}
-
-/* secondary button for all type of button*/
-.btn-icn-sec{
-    color: inherit;
-}
-.btn-outline-icn,.btn-outline-icn-sec{
-    color: inherit;
-}
-.btn-outline-icn-sec:hover,.btn-icn-sec:hover{
-    opacity: 0.8;
-}
-.btn-outline-icn:hover{
-    color: var(--cta1);
-}
-.btn-sec{
-    background-color: var(--darkgray-bg);
-    color: inherit;
-    border-color: inherit;
-    
-}
-.btn-outline-sec{
-    color: inherit;
-    background-color: inherit;
-    border-color: inherit;
-}
-.btn-sec:hover,.btn-outline-sec:hover{
-    color: inherit;
-    background-color: var(--darkgray-bg);
-    opacity: 0.8;
-}
-
 /* link secondary */
 .link-sec{
-    color: inherit;
-    text-decoration-color:inherit;
-
+    /* color: inherit;
+    text-decoration-color:inherit; */
+    /* cursor: pointer; */
+    opacity: 0.6;
 }
 
 .link-sec:hover{
-    opacity: 0.8;
+    opacity: 0.4;
 }

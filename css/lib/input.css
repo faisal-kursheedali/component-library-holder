@@ -8,7 +8,7 @@
 .input-inlineBlock,
 .input-sm,
 .input-md,
-.input-lrg,
+.input-lg,
 .input-yellow,
 .input-red,
 .input-blue,
@@ -51,7 +51,7 @@
     padding: 0.5rem;
 }
 
-.input-lrg {
+.input-lg {
     font-size: var(--p1-fontsize);
     padding: 0.6rem;
 }

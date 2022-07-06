@@ -6,10 +6,6 @@
 .alert,.alert-red,.alert-green,.alert-blue,.alert-liteblack,.alert-liteblue,.alert-yellow{
     font-size: var(--alert-fontsize);
     max-width: 600px;
-    height: 50px;
-    display: flex;
-    justify-content:flex-start;
-    align-items: center;
     border: 2px solid;
     border-radius: .3rem;
     padding: 1rem;
@@ -20,15 +16,17 @@
     position: relative;
 }
 /* for alert with icons */
-.alert-icon{
-    margin-right: .5rem;
+.alert-icn{
+    margin-right: .5ch;
+    display: inline;
    
 }
 
 /* alert with "x" exit icon */
 .alert-close{
     position: absolute;
-    right: 0;
+    right: 5px;
+    top: 5px;
     cursor: pointer;
 }
 .alert-close:hover{

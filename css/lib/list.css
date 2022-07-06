@@ -8,7 +8,7 @@
 .list-alp,
 .list-cap,
 .list-num,
-.list-lrgroman,
+.list-lgroman,
 .list-smroman,.list-inline{
     
     font-size: 1.5rem;
@@ -44,7 +44,7 @@
     list-style-type: lower-roman;
 }
 
-.list-lrgroman {
+.list-lgroman {
     list-style-type: upper-roman;
 }
 
