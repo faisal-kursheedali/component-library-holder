@@ -62,14 +62,13 @@
     justify-content: flex-start;
     align-items: center;
     padding-left: 1rem;
-    font-size: 1.3rem;
 }
 .bui-sidenav-header-btn{
     padding: 8px;
     cursor: pointer;
 }
 .bui-sidenav-header-logo{
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-weight: bold;
     padding: 18px 14px 18px 16px;
     cursor: pointer;
