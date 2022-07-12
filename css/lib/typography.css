@@ -1,0 +1,141 @@
+/* bui sizes and weight */
+/* font weight */
+.bui-txt-weight-regular{
+    font-weight: 400;
+}
+.bui-txt-weight-medium{
+    font-weight: 500;
+}
+.bui-txt-weight-semibold{
+    font-weight: 600;
+}
+.bui-txt-weight-bold{
+    font-weight: 700;
+}
+/* font size */
+.bui-txt-size-xsm{
+    font-size: 12px;
+}
+.bui-txt-size-sm{
+    font-size: 14px;
+}
+.bui-txt-size-md{
+    font-size: 16px;
+}
+.bui-txt-size-lg{
+    font-size: 18px;
+}
+.bui-txt-size-xl{
+    font-size: 20px;
+}
+/* heading txt */
+.bui-txt-head-2xl{
+    font-size: 72px;
+}
+.bui-txt-head-xl{
+    font-size: 60px;
+}
+.bui-txt-head-lg{
+    font-size: 48px;
+}
+.bui-txt-head-md{
+    font-size: 36px;
+}
+.bui-txt-head-sm{
+    font-size: 30px;
+}
+.bui-txt-head-2xl{
+    font-size: 24px;
+}
+
+/* text with type */
+.bui-txt-center{
+    text-align: center;
+}
+.bui-txt-right{
+    text-align: right;
+}
+.bui-txt-left{
+    text-align: left;
+}
+.bui-txt-code{
+    font-family: monospace;
+    color: var(--cta1);
+    background-color: var(--litegray-bg);
+    border-radius: .5rem;
+}
+.bui-txt-del {
+    text-decoration: line-through;
+    opacity: 0.8;
+}
+.bui-txt-underline {
+    text-decoration: underline;
+}
+
+/* colored text */
+.bui-txt-clr-cta1 {
+    color: var(--cta1);
+}
+
+.bui-txt-clr-cta2 {
+    color: var(--cta2);
+}
+.bui-txt-clr-cta3 {
+    color: var(--cta3);
+}
+.bui-txt-clr-cta4 {
+    color: var(--cta4);
+}
+.bui-txt-clr-cta5 {
+    color: var(--cta5);
+}
+.bui-txt-clr-txt-green{
+    color: var(--green-clr);
+}
+.bui-txt-clr-txt-red{
+    color: var(--red-clr);
+}
+.bui-txt-clr-txt-blue{
+    color: var(--blue-clr);
+}
+
+.bui-txt-clr-white {
+    color: var(--white-txt);
+}
+
+.bui-txt-clr-black {
+    color: var(--black-txt);
+}
+
+.bui-txt-clr-gray {
+    color: var(--gray-txt);
+}
+
+/*txt-highlighted txt with color*/
+/*txt-highlighted defaut yellow color*/
+.bui-txt-highlighted {
+    background-color: var(--heighlited-txt);
+    color: var(--text-on-heighlited);
+}
+.bui-txt-highlighted-cta1 {
+    background-color: var(--cta1);
+    color: var(--text-on-cta1);
+}
+
+.bui-txt-highlighted-cta2 {
+    background-color: var(--cta2);
+    color: var(--text-on-cta2);
+}
+
+.bui-txt-highlighted-cta3 {
+    background-color: var(--cta3);
+    color: var(--text-on-cta3);
+}
+.bui-txt-highlighted-cta4 {
+    background-color: var(--cta4);
+    color: var(--text-on-cta4);
+}
+.bui-txt-highlighted-cta5 {
+    background-color: var(--cta5);
+    color: var(--text-on-cta5);
+}

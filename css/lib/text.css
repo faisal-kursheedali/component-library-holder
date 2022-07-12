@@ -50,100 +50,14 @@
     font-size: var(--small-fontsize);
 }
 
-/* underlined */
-.bui-underline {
-    text-decoration: underline;
-}
-
-/*highlighted*/
-.bui-highlighted {
-    background-color: var(--heighlited-txt);
-    color: var(--text-on-heighlited);
-
-}
-
-/*highlighted based on cta colors*/
-.bui-highlighted-cta1 {
-    background-color: var(--cta1);
-    color: var(--text-on-cta1);
-}
-
-.bui-highlighted-cta2 {
-    background-color: var(--cta2);
-    color: var(--text-on-cta2);
-}
-
-.bui-highlighted-cta3 {
-    background-color: var(--cta3);
-    color: var(--text-on-cta3);
-}
-.bui-highlighted-cta4 {
-    background-color: var(--cta4);
-    color: var(--text-on-cta4);
-}
-.bui-highlighted-cta5 {
-    background-color: var(--cta5);
-    color: var(--text-on-cta5);
-}
-
-/* deleted text */
-.bui-txt-del {
-    text-decoration: line-through;
-    opacity: 0.8;
-}
-
-/* bold text */
-.bui-bold {
-    font-weight: 700;
-}
-
-/* coloring text based on cta colors */
-.bui-cta1 {
-    color: var(--cta1);
-}
-
-.bui-cta2 {
-    color: var(--cta2);
-}
 
 
-.bui-cta3 {
-    color: var(--cta3);
-}
-.bui-cta4 {
-    color: var(--cta4);
-}
-.bui-cta5 {
-    color: var(--cta5);
-}
-.bui-txt-green{
-    color: var(--green-clr);
-}
 
-/* coloring text */
-.bui-white {
-    color: var(--white-txt);
-}
 
-.bui-black {
-    color: var(--black-txt);
-}
 
-.bui-gray {
-    color: var(--gray-txt);
-}
-.bui-txt-center{
-    text-align: center;
-}
-.bui-txt-right{
-    text-align: right;
-}
-.bui-txt-left{
-    text-align: left;
-}
-.bui-txt-code{
-    font-family: monospace;
-    color: var(--cta1);
-    background-color: var(--litegray-bg);
-    border-radius: .5rem;
-}
+
+
+
+
+
+
