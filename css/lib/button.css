@@ -234,7 +234,7 @@
 /* to display link without any style */
 .bui-link-nostyle{
     
-    font-weight: 600;
+    font-weight: initial;
     
 }
 /* link with icon  */
